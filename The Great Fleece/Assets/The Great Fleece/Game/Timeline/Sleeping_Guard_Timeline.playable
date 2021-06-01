@@ -22,6 +22,32 @@ MonoBehaviour:
   m_Loop: 0
   m_Version: 1
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
+--- !u!114 &-7953043935503306832
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fc6f5187a81dc47999eefade6f0935, type: 3}
+  m_Name: CM Virtual Cameras
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children:
+  - {fileID: 2841415348005542971}
+  - {fileID: -4837910211630475910}
+  - {fileID: 390303061293171016}
+  m_Clips: []
+  m_Markers:
+    m_Objects: []
 --- !u!114 &-7061166880856327298
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -55,7 +81,7 @@ MonoBehaviour:
   m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
-  m_Parent: {fileID: 11400000}
+  m_Parent: {fileID: -7953043935503306832}
   m_Children: []
   m_Clips: []
   m_Markers:
@@ -94,11 +120,9 @@ MonoBehaviour:
   m_Tracks:
   - {fileID: 2311003522555783861}
   - {fileID: 2892885903028486718}
-  - {fileID: 2841415348005542971}
   - {fileID: 983522022943203830}
   - {fileID: 4926710795229859188}
-  - {fileID: -4837910211630475910}
-  - {fileID: 390303061293171016}
+  - {fileID: -7953043935503306832}
   m_FixedDuration: 0
   m_EditorSettings:
     m_Framerate: 60
@@ -236,7 +260,7 @@ MonoBehaviour:
   m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
-  m_Parent: {fileID: 11400000}
+  m_Parent: {fileID: -7953043935503306832}
   m_Children: []
   m_Clips: []
   m_Markers:
@@ -808,7 +832,7 @@ MonoBehaviour:
   m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
-  m_Parent: {fileID: 11400000}
+  m_Parent: {fileID: -7953043935503306832}
   m_Children: []
   m_Clips: []
   m_Markers:
