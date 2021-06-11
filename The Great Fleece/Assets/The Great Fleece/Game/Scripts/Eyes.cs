@@ -11,7 +11,6 @@ public class Eyes : MonoBehaviour
         if (other.tag == "Player")
         {
             _gameOverCutscene.SetActive(true);
-            //Destroy(other.gameObject);
         }
     }
 }
