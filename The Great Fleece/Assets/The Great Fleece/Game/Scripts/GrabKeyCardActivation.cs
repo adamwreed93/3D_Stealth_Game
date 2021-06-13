@@ -13,6 +13,7 @@ public class GrabKeyCardActivation : MonoBehaviour
         {
             _sleepingGuardCutscene.SetActive(true);
             _alreadyPlayedCinematic = true;
+            GameManager.Instance.HasCard = true;
         }
     }
 }
