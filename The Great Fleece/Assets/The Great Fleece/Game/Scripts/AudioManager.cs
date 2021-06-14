@@ -5,10 +5,6 @@ using UnityEngine;
 public class AudioManager : MonoBehaviour
 {
     private static AudioManager _instance;
-
-    [SerializeField] private AudioSource _voiceOver;
-
-
     public static AudioManager Instance
     {
         get
@@ -21,6 +17,9 @@ public class AudioManager : MonoBehaviour
         }
     }
 
+    [SerializeField] private AudioSource _voiceOver;
+    [SerializeField] private AudioSource _music;
+
     private void Awake()
     {
         _instance = this; //Makes "_instance" equal this script.
@@ -30,5 +29,10 @@ public class AudioManager : MonoBehaviour
     {
         _voiceOver.clip = clipToPlay;
         _voiceOver.Play();
+    }
+
+    public void PlayMusic()
+    {
+        _music.Play();
     }
 }
